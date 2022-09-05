@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+
+	<div class="topbar">
+		<div class="logo">
+			<h1>Helth care</h1>
+		</div>
+
+
+		<div class="option">
+			<ul>
+				<li><button class="button2"><a href="#">Login</a></button></li>
+				<li><button class="button2"><a href="#">Signup</a></button></li>
+			</ul>
+		</div>
+		<div class="option1">
+			<ul>
+				<li><a href="#">Find Doctor</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
+
+
+<div id="main">
+
+    <div class="fview">
+      <div class="info">
+        <p class="infoH">Protect you<br>and your family</p>
+        <p class="infop">Protect you fgdfg dfg dfg dfg dfg<br>and your family</p>
+      </div>
+
+      <div class="pic">
+        <img src="img/home image.png" ;>
+      </div>
+
+      <div class="infoB">
+        <button class="button button2"><a style="color: white;" href="#">Get Start</a></button>
+      </div>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
+
+
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+
+</body>
+
+<footer>
+	<center>
+		<p style="font-size: 15px;">Copyright 2022 © Revolt Airline.</p>
+	</center>
+</footer>
+
+</html>
